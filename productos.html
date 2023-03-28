@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- AnimateCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- Css Local -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand miniLogo" href="#"><img src="imagenes/minilog.png" alt="" class="minilog"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <button class="btn position-relative" id="verCarrito" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                        <img src="imagenes/shopping-cart.png" class="shoppingCart" alt="">
+                        <span id="burbujaCarrito"
+                            class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-success">
+
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+
+
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" id="ingresaBusqueda" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="tituloProductos">
+        <h4>PRODUCTOS</h4>
+       
+    </div>
+
+
+
+    <div id="contenedorProductos" class="row"></div>
+
+
+
+
+
+    <!-- carrito de compras -->
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">CARRITO DE COMPRAS</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <p>El consumo de alcohol es nosivo para la salud.</p>
+
+
+            <div id="contenedorCarrito" class="row"></div>
+            <br>
+
+            <h4>Total:<samp id="total"></samp></h4>
+            <h6>Total USD:<samp id="totalUsd"></samp></h6>
+
+            <button class="btn btn-danger" id="vaciarCarrito">Vaciar Carrito</button>
+            <button class="btn btn-success" id="comprar">Comprar</button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="productos.js"></script>
+</body>

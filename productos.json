@@ -1,0 +1,129 @@
+
+[
+    {
+        "nombre": "Six Pack Heineken",
+        "precio": 1800,
+        "imagen": "imagenes/productos/Six-Pack-Heineken.png",
+        "tipo": "Cerveza",
+        "id": 1
+    },
+    {
+        "nombre": "Six Pack Corona",
+        "precio": 1600,
+        "imagen": "imagenes/productos/Six-Pack-Corona.png",
+        "tipo": "Cerveza",
+        "id": 2
+    },
+    {
+        "nombre": "Twelve Pack Budweiser",
+        "precio": 2200,
+        "imagen": "imagenes/productos/Six-Budweiser-American.png",
+        "tipo": "Cerveza",
+        "id": 3
+    },
+    {
+        "nombre": "Six Pack BRAHMA",
+        "precio": 1300,
+        "imagen": "imagenes/productos/Six-Brahma.jpg",
+        "tipo": "Cerveza",
+        "id": 4
+    },
+    {
+        "nombre": "Six Pack Schneider",
+        "precio": 1640,
+        "imagen": "imagenes/productos/six-pack-schneider.jpg",
+        "tipo": "Cerveza",
+        "id": 5
+    },
+    {
+        "nombre": "Six Pack Quilmes",
+        "precio": 1200,
+        "imagen": "imagenes/productos/six-pack-quilmes.jpg",
+        "tipo": "Cerveza",
+        "id": 6
+    },
+    {
+        "nombre": "Ron Diplomatico Reserva",
+        "precio": 6850,
+        "imagen": "imagenes/productos/diplomatico-reservagrande.jpg",
+        "tipo": "Ron",
+        "id": 7
+    },
+    {
+        "nombre": "Ron Bacardi Añejo",
+        "precio": 3750,
+        "imagebn": "imagenes/productos/bacardi.jpg",
+        "tipo": "Ron",
+        "id": 8
+    },
+    {
+        "nombre": "Ron Barceló",
+        "precio": 2380,
+        "imagebn": "imagenes/productos/barcelo.jpg",
+        "tipo": "Ron",
+        "id": 9
+    },
+    {
+        "nombre": "Ron Santa Teresa 1796",
+        "precio": 7350,
+        "imagebn": "imagenes/productos/santa-teresa.jpg",
+        "tipo": "Ron",
+        "id": 10
+    },
+    {
+        "nombre": "Whisky Buchanan",
+        "precio": 12550,
+        "imagebn": "imagenes/productos/buchanans.jpg",
+        "tipo": "Whisky",
+        "id": 11
+    },
+    {
+        "nombre": "Whisky Old Parr",
+        "precio": 7850,
+        "imagebn": "imagenes/productos/Old_parr.png",
+        "tipo": "Whisky",
+        "id": 12
+    },
+    {
+        "nombre": "Whisky Chivas Regal",
+        "precio": 7850,
+        "imagebn": "imagenes/productos/chivas-regal.jpg",
+        "tipo": "Whisky",
+        "id": 13
+    },
+    {
+        "nombre": "Johnnie Walker Red Label",
+        "precio": 6850,
+        "imagebn": "imagenes/productos/whisky_johnnie_walker_red_label.jpg",
+        "tipo": "Whisky",
+        "id": 14
+    },
+    {
+        "nombre": "Vodka Absolut",
+        "precio": 2650,
+        "imagen": "imagenes/productos/absolut.jpg",
+        "tipo": "Vodka",
+        "id": 15
+    },
+    {
+        "nombre": "Vodka Smirnoff",
+        "precio": 1800,
+        "imagen": "imagenes/productos/smirnoff.png",
+        "tipo": "Vodka",
+        "id": 16
+    },
+    {
+        "nombre": "Vodka Ciroc",
+        "precio": 1600,
+        "imagen": "imagenes/productos/ciroc.jpg",
+        "tipo": "Vodka",
+        "id": 17
+    },
+    {
+        "nombre": "Vodka Sernova + Speed",
+        "precio": 1700,
+        "imagen": "imagenes/productos/sernova.png",
+        "tipo": "Vodka",
+        "id": 18
+    }
+]
